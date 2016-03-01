@@ -10,9 +10,10 @@ namespace ConsoleApplication
 {
     public class Class1
     {
-        Class1()
+        List<int> list = new List<int>().ToList();
+        public Class1()
         {
-
+            
         }
     }
 }

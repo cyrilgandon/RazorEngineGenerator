@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="MyIReferenceResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="Views\test.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
