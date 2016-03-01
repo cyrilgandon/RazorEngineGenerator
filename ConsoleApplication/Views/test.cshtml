@@ -1,0 +1,14 @@
+﻿@using RazorEngine.Templating
+@using ConsoleApplication
+@using System.Linq
+@inherits  TemplateBase<Class1>
+
+
+    <p>The great stuff you bought was:</p>
+    <ul>
+        @foreach (var line in new[] { 1, 2, 3 }.ToList())
+        {
+        <li>@line</li>
+        }
+    </ul>
+    <h3>Thanks for shopping at BuyMore</h3>
